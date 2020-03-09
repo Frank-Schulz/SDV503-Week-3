@@ -115,3 +115,69 @@ console.log(110 + 10 - '5');
 
 // Logs the result of '10' / '10' | both 10's are converted to numbers
 console.log('10' / '10');
+
+
+
+// Boolean
+console.log( +true);
+console.log( +false);
+console.log( +'' )
+
+// Comma Operator
+console.log(1 + 2, 3 + 4);
+console.log(5 + 6, 7 + 8);
+console.log(8 + 9, 10 + 11);
+
+console.log("Comma operator in a variable");
+let c =(1 + 2, 3 + 4);
+console.log(c);
+
+// Assignment Operator
+x = 10; // Assign
+console.log(x);
+
+x = 10;
+x += 10; // Add and Assign
+console.log(x);
+
+x = 10;
+x -= 10;
+console.log(x); // Subtract and Assign
+
+x = 10;
+x *= 10; // Multiply and Assign
+console.log(x);
+
+x = 10;
+x /= 10; // Divide and Assign
+console.log(x);
+
+x = 10;
+x %= 10; // Divide and Assign modulus
+console.log(x);
+
+x = 10;
+x **= 10; // 
+console.log(x);
+
+
+// Comparison Operators
+let a = 25;
+let b = 13;
+
+if ( a == b ) {
+    console.log("Variables a and b are equal")
+}
+
+// equal to
+console.log(10 == 5);
+// not equal to
+console.log(10 != 5);
+// less than
+console.log(10 < 5);
+// greater than
+console.log(10 > 5);
+// less than or equal to
+console.log(10 <= 5);
+// greater than or equal to
+console.log(10 >= 5);
