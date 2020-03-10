@@ -165,8 +165,8 @@ console.log(x);
 let a = 25;
 let b = 13;
 
-if ( a == b ) {
-    console.log("Variables a and b are equal")
+if (a == b) {
+        console.log("Variables a and b are equal")
 }
 
 // equal to
@@ -181,3 +181,69 @@ console.log(10 > 5);
 console.log(10 <= 5);
 // greater than or equal to
 console.log(10 >= 5);
+
+// Boolean andd number 
+// different value
+console.log(10 == '5')
+// same value
+console.log(5 == '5');
+// different type
+console.log(5 === '5');
+// same type
+console.log('5' === '5');
+
+
+console.log(true == 1);
+console.log(true == '1');
+console.log(true == 0);
+console.log(false == 1);
+console.log(false == '0');
+console.log(false == 0);
+
+console.log(true != 1);
+console.log(true != "1");
+
+
+
+console.log("Raise" > "Race");
+
+console.log(1 == "1");      // both have the same value
+console.log(1 === "1");     // same value but different data type
+
+console.log(1 == true);     // both have the same value
+console.log(1 === true);    // same value but different data type
+
+console.log(0 == false);    // both have the same value
+console.log(0 === false);   // same value but different data type
+
+
+console.log(1 != "1");      // both have the same value
+
+
+// null vs undefined
+console.log(null == 0);             // null is not converted to a value, 0 is a value
+console.log(null === 0);            // ^
+console.log(null > 0);              // ^
+console.log(null < 0)               // ^
+
+console.log(undefined == null);     // both have a value of nothing
+console.log(undefined === null);    // undefined gets evaluted as zero but null is actually zero
+
+console.log(undefined == 0);        // cannot evalute undefined (has no value)
+console.log(undefined === 0);       // cannot evalute undefined (has no value)
+console.log(undefined > 0);         // cannot evalute undefined (has no value)
+console.log(undefined >= 0);        // cannot evalute undefined (has no value)
+
+console.log(null + 1);              // evaluates null as 0 and adds 1
+console.log(undefined > 0);         // undefined has no value, so can't do math
+console.log(undefined + 1);         // undefined has no value, so can't do math
+
+
+// Logic Gates
+// The following expressions evaluate to either true or false
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+console.log(true || true && false);
